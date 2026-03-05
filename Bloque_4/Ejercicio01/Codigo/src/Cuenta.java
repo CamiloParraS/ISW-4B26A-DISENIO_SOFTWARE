@@ -14,7 +14,7 @@ public class Cuenta {
     // Titular y Cantidad
     public Cuenta(String titular, double cantidad) {
         this.titular = titular;
-        this.cantidad = cantidad; 
+        this.cantidad = cantidad;
     }
 
     // === Metodos ===
@@ -70,5 +70,8 @@ public class Cuenta {
 
         c1.retirar(600.0);
         System.out.println(c1);
-    }
+
+        Cuenta c2 = new Cuenta("Maria", 1000.0);
+        System.out.println(c2);
+    }bSystem.out.println("Es mayor de Edad: " + viejote);System.out.println("Es mayor de Edad: " + viejote);System.out.println("Es mayor de Edad: " + viejote);
 }
