@@ -1,0 +1,6 @@
+.vscode/
+settings.json
+*.class
+*.jar
+*.war
+*.ear
