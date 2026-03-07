@@ -1,7 +1,8 @@
 import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); 
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("\n ====== VALORES TECLADO ======");
         System.out.print(" Nombre: ");
@@ -23,11 +24,11 @@ public class App {
         objeto3.setAltura(23.3);
         objeto3.setSexo('M');
         objeto3.setPeso(203.3);
-        
-        System.out.println( "=============================");
+
+        System.out.println("=============================");
 
         Persona[] listaPersonas = {objeto1, objeto2, objeto3};
-        for (int i=0 ; i < listaPersonas.length; i++) {
+        for (int i = 0; i < listaPersonas.length; i++) {
             System.out.println("--- Resutlados Objeto " + (i + 1) + " ---");
             String viejote = listaPersonas[i].esMayorEdad() ? "Si, esta viejo" : "No, esta joven";
             System.out.println("Es mayor de Edad: " + viejote);

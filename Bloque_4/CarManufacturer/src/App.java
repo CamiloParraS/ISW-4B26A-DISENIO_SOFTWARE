@@ -4,13 +4,13 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         Llanta llantaRadial = new Llanta(18.5f, TipoLlanta.RADIAL);
-        Chasis chasisAcero  = new Chasis(120.0f, MaterialChasis.ACERO);
+        Chasis chasisAcero = new Chasis(120.0f, MaterialChasis.ACERO);
         ArrayList<String> coloresPlanta1 = new ArrayList<>();
         coloresPlanta1.add("rojo");
         coloresPlanta1.add("negro");
         Planta planta1 = new Planta(llantaRadial, chasisAcero, coloresPlanta1);
 
-        Llanta llantaNieve    = new Llanta(20.0f, TipoLlanta.NIEVE);
+        Llanta llantaNieve = new Llanta(20.0f, TipoLlanta.NIEVE);
         Chasis chasisAluminio = new Chasis(85.0f, MaterialChasis.ALUMINIO);
         ArrayList<String> coloresPlanta2 = new ArrayList<>();
         coloresPlanta2.add("blanco");

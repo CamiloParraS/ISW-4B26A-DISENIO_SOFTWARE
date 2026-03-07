@@ -1,12 +1,12 @@
 import java.util.Random;
 
 public class Persona {
-    // === Constantes ===     
+    // === Constantes ===
     private static final char DEFAULT_SEXO = 'H';
     private static final int BAJO_PESO = -1;
     private static final int PESO_IDEAL = 0;
     private static final int SOBREPESO = 1;
-    
+
     // === Attributes ===
     private String nombre;
     private int edad;
@@ -50,18 +50,23 @@ public class Persona {
     public String getNombre() {
         return nombre;
     }
+
     public int getEdad() {
         return edad;
     }
+
     public String getDNI() {
         return dni;
     }
+
     public char getSexo() {
         return sexo;
     }
+
     public double getPeso() {
         return peso;
     }
+
     public double getAltura() {
         return altura;
     }
@@ -92,13 +97,13 @@ public class Persona {
     public boolean esMayorEdad() {
         return edad >= 18;
     }
-    
+
     public int calcularIMC() {
         if (this.altura <= 0) {
             return BAJO_PESO;
         }
 
-        double imc = peso / (altura*altura);
+        double imc = peso / (altura * altura);
 
         if (imc < 20) {
             return BAJO_PESO;
@@ -111,17 +116,19 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Nombre = '" + nombre + "\'" + ", Edad = " + edad + ", DNI ='" + dni + "\'" + ", Sexo = " + sexo + ", Peso = " + peso + " kg" + ", Altura = " + altura + "m";
+        return "Nombre = '" + nombre + "\'" + ", Edad = " + edad + ", DNI ='" + dni + "\'"
+                + ", Sexo = " + sexo + ", Peso = " + peso + " kg" + ", Altura = " + altura + "m";
     }
+
     // PRIVADOS
     private void generarDNI() {
         Random r = new Random();
 
         int randomEight = r.nextInt(99_999_999);
-        String baseStr = String.format("%08d",  randomEight);
+        String baseStr = String.format("%08d", randomEight);
         int hash = baseStr.hashCode();
 
-        char lastDigit = (char) ('A' + (Math.abs(hash)%26));
+        char lastDigit = (char) ('A' + (Math.abs(hash) % 26));
 
         this.dni = baseStr + lastDigit;
     }

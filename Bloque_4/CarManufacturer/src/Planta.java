@@ -20,12 +20,27 @@ public class Planta {
         return new Carro(colorElegido, tipoChasis, llantas);
     }
 
-    public Llanta getTipoLlanta() { return tipoLlanta; }
-    public void setTipoLlanta(Llanta tipoLlanta) { this.tipoLlanta = tipoLlanta; }
+    public Llanta getTipoLlanta() {
+        return tipoLlanta;
+    }
 
-    public Chasis getTipoChasis() { return tipoChasis; }
-    public void setTipoChasis(Chasis tipoChasis) { this.tipoChasis = tipoChasis; }
+    public void setTipoLlanta(Llanta tipoLlanta) {
+        this.tipoLlanta = tipoLlanta;
+    }
 
-    public ArrayList<String> getColores() { return colores; }
-    public void setColores(ArrayList<String> colores) { this.colores = colores; }
+    public Chasis getTipoChasis() {
+        return tipoChasis;
+    }
+
+    public void setTipoChasis(Chasis tipoChasis) {
+        this.tipoChasis = tipoChasis;
+    }
+
+    public ArrayList<String> getColores() {
+        return colores;
+    }
+
+    public void setColores(ArrayList<String> colores) {
+        this.colores = colores;
+    }
 }

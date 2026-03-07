@@ -73,5 +73,5 @@ public class Cuenta {
 
         Cuenta c2 = new Cuenta("Maria", 1000.0);
         System.out.println(c2);
-    }bSystem.out.println("Es mayor de Edad: " + viejote);System.out.println("Es mayor de Edad: " + viejote);System.out.println("Es mayor de Edad: " + viejote);
+    }
 }

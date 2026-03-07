@@ -1,4 +1,3 @@
 public enum MaterialChasis {
-    ALUMINIO,
-    ACERO
+    ALUMINIO, ACERO
 }

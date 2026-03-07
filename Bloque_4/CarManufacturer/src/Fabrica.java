@@ -12,7 +12,9 @@ public class Fabrica {
         plantas.add(planta);
     }
 
-    public List<Planta> getPlantas() { return plantas; }
+    public List<Planta> getPlantas() {
+        return plantas;
+    }
 
     public List<Carro> producirCarros() {
         List<Carro> carros = new ArrayList<>();
