@@ -4,3 +4,109 @@ settings.json
 *.jar
 *.war
 *.ear
+
+# CMake build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/install/
+compile_commands.json
+Makefile
+
+# Build outputs / binaries
+/bin/
+/lib/
+/out/
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.o
+*.obj
+*.lo
+*.pdb
+*.ilk
+*.idb
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+
+# IDEs / editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS / misc
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temp
+*.log
+*.tmp
+*~
+*.swp
+
+# CMake build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/install/
+compile_commands.json
+Makefile
+
+# Build outputs / binaries
+/bin/
+/lib/
+/out/
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.o
+*.obj
+*.lo
+*.pdb
+*.ilk
+*.idb
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+
+# IDEs / editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS / misc
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temp
+*.log
+*.tmp
+*~
+*.swp
