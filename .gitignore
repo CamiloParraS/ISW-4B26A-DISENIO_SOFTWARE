@@ -1,111 +1,86 @@
-.vscode/
-settings.json
+# ====================================================================
+# Languages: C++ and Java
+# ====================================================================
+
+# Java compiled files
 *.class
 *.jar
 *.war
 *.ear
 
-# CMake build artifacts
-/build/
-/CMakeFiles/
-/CMakeCache.txt
-/cmake_install.cmake
-/CTestTestfile.cmake
-/Testing/
-/install/
-compile_commands.json
-Makefile
-
-# Build outputs / binaries
-/bin/
-/lib/
-/out/
-*.exe
-*.dll
-*.so
-*.dylib
-*.lib
-*.a
+# C++ Object and static library files
 *.o
 *.obj
 *.lo
+*.slo
+*.a
+*.lib
+*.la
+*.lai
+
+# Precompiled headers and dependency files
+*.gch
+*.pch
+*.d
+
+# ====================================================================
+# Build Systems: CMake and Ninja
+# ====================================================================
+
+# Build directories (Standard locations)
+build/
+bin/
+lib/
+out/
+target/
+Testing/
+install/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+build.ninja
+compile_commands.json
+
+# ====================================================================
+# Binaries and Executables
+# ====================================================================
+
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Debugging symbols
 *.pdb
 *.ilk
 *.idb
 
-# Visual Studio
+# ====================================================================
+# IDEs and Editors
+# ====================================================================
+
+.vscode/
+.idea/
 .vs/
 *.sln
 *.vcxproj*
-*.vcxproj.filters
-*.vcxproj.user
+*.code-workspace
 *.suo
 *.user
 
-# IDEs / editors
-.vscode/
-.idea/
-*.code-workspace
+# ====================================================================
+# OS and Temporary Files
+# ====================================================================
 
-# OS / misc
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Logs / temp
-*.log
-*.tmp
-*~
-*.swp
-
-# CMake build artifacts
-/build/
-/CMakeFiles/
-/CMakeCache.txt
-/cmake_install.cmake
-/CTestTestfile.cmake
-/Testing/
-/install/
-compile_commands.json
-Makefile
-
-# Build outputs / binaries
-/bin/
-/lib/
-/out/
-*.exe
-*.dll
-*.so
-*.dylib
-*.lib
-*.a
-*.o
-*.obj
-*.lo
-*.pdb
-*.ilk
-*.idb
-
-# Visual Studio
-.vs/
-*.sln
-*.vcxproj*
-*.vcxproj.filters
-*.vcxproj.user
-*.suo
-*.user
-
-# IDEs / editors
-.vscode/
-.idea/
-*.code-workspace
-
-# OS / misc
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Logs / temp
 *.log
 *.tmp
 *~
