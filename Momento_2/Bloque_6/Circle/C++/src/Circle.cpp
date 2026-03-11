@@ -5,7 +5,7 @@
 
 Circle::Circle() : radius(1.0), color("red") {}
 Circle::Circle(double r) : radius(r), color("red") {}
-Circle::Circle(double r, std::string c) : radius(r), color(c) {}
+Circle::Circle(double r, const std::string& c) : radius(r), color(c) {}
 
 double Circle::getRadius() const {
     return radius;
@@ -19,7 +19,7 @@ std::string Circle::getColor() const {
     return color;
 }
 
-void Circle::setColor(std::string c) {
+void Circle::setColor(const std::string& c) {
     color = c;
 }
 
