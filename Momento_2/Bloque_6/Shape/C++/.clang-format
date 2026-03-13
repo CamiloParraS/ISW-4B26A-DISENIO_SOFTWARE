@@ -1,0 +1,7 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+# You can add overrides below if Google is too strict for you
+IndentWidth: 2
+ColumnLimit: 80
+...
