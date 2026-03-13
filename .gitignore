@@ -44,6 +44,7 @@ CTestTestfile.cmake
 Makefile
 build.ninja
 compile_commands.json
+CMakeLists.txt
 
 # ====================================================================
 # Binaries and Executables
