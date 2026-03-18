@@ -21,6 +21,6 @@ double Cylinder::getVolume() const
 
 std::ostream &operator<<(std::ostream &os, const Cylinder &c)
 {
-    os << "Cylinder[radius: " << c.getRadius() << ", color: " << c.getColor() << ", height: " << c.getHeight() << "]";
+    os << "Cylinder[radius: " << c.getRadius() << ", color: " << c.getColor() << ", height: " << c.getHeight() << ", Area: " << c.getArea() << ", volume: " << c.getVolume() << "]";
     return os;
 }

@@ -34,6 +34,6 @@ double Circle::getArea() const
 
 std::ostream &operator<<(std::ostream &os, const Circle &c)
 {
-    os << "Circle[radius: " << c.getRadius() << ", color: " << c.getColor() << "]";
+    os << "Circle[radius: " << c.getRadius() << ", color: " << c.getColor() << ", area: " << c.getArea() << "]";
     return os;
 }
