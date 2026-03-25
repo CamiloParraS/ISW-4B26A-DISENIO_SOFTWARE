@@ -43,6 +43,7 @@ int main()
     std::cout << "Parameterized Dog: " << dog2 << std::endl;
     dog1.setName("Max");
     std::cout << "Updated Dog1: " << dog1 << std::endl;
+    dog2.greets();
 
     return 0;
 }
