@@ -13,7 +13,7 @@ public:
     Disco();
     Disco(const std::string &titulo, const std::string &autor, float duracion, int precio);
 
-    virtual std::string mostrar() const;
+    virtual std::string mostrar() const override;
 };
 
 std::ostream &operator<<(std::ostream &os, const Disco &disco);
