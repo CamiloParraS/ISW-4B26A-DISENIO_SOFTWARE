@@ -33,9 +33,10 @@ public class App {
         System.out.println("\n=== Dog Class ===");
         Dog dog1 = new Dog();
         System.out.println("Predeterminado Dog: " + dog1);
-        Dog dog2 = new Dog("Buddy");
+        Dog dog2 = new Dog("Buddy", razaDog.LABRADOR);
         System.out.println("Parametros Dog: " + dog2);
         dog1.setName("Max");
+        dog1.setRaza(razaDog.BULLDOG);
         System.out.println("Actualizado Dog1: " + dog1);
         dog2.greets();
     }
