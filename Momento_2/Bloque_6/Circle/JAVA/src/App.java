@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         Circle circle = new Circle(2.0, "blue");
+        System.out.println("/n -----------------------------");
         System.out.println(circle);
         System.out.println("Area: " + circle.getArea());
 
