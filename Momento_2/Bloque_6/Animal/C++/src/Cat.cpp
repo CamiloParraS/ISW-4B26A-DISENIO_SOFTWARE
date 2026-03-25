@@ -8,6 +8,11 @@ std::string Cat::toString() const
     return "Cat [" + Mammal::toString() + " ]";
 }
 
+void Cat::greets() const
+{
+    std::cout << "Meow!" << std::endl;
+}
+
 std::ostream &operator<<(std::ostream &os, const Cat &cat)
 {
     os << cat.toString();

@@ -11,6 +11,8 @@ public:
     Cat(std::string name);
 
     std::string toString() const;
+
+    void greets() const;
 };
 
 std::ostream &operator<<(std::ostream &os, const Cat &cat);
