@@ -74,6 +74,7 @@ CMakeLists.txt
 *.code-workspace
 *.suo
 *.user
+*.iml
 
 # ====================================================================
 # OS and Temporary Files
