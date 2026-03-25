@@ -2,6 +2,7 @@
 #define PUBLICACION_H
 
 #include <string>
+#include <ostream>
 
 class Publicacion
 {

@@ -1,4 +1,4 @@
-#include "../include/Disco.h"
+#include "Disco.h"
 
 Disco::Disco() : Publicacion(), duracion(0.0f), precio(0) {}
 Disco::Disco(const std::string &titulo, const std::string &autor, float duracion, int precio)

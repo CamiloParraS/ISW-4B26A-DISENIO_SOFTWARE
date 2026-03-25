@@ -1,4 +1,4 @@
-#include "../include/Libro.h"
+#include "Libro.h"
 
 Libro::Libro() : Publicacion(), numeroPaginas(0), anioPublicacion(0) {}
 Libro::Libro(const std::string &titulo, const std::string &autor, int numeroPaginas, int anioPublicacion)

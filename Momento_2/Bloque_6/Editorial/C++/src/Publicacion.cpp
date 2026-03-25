@@ -1,4 +1,4 @@
-#include "../include/Publicacion.h"
+#include "Publicacion.h"
 
 Publicacion::Publicacion() : titulo(""), autor("") {}
 Publicacion::Publicacion(const std::string &titulo, const std::string &autor) : titulo(titulo), autor(autor) {}

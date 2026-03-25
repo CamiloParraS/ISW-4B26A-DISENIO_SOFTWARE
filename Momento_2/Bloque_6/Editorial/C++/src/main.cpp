@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "../include/Publicacion.h"
-#include "../include/Libro.h"
-#include "../include/Disco.h"
+#include "Publicacion.h"
+#include "Libro.h"
+#include "Disco.h"
 
 int main()
 {
