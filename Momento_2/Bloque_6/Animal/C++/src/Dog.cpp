@@ -8,6 +8,11 @@ std::string Dog::toString() const
     return "Dog [" + Mammal::toString() + " ]";
 }
 
+void Dog::greets() const
+{
+    std::cout << "Woof!" << std::endl;
+}
+
 std::ostream &operator<<(std::ostream &os, const Dog &dog)
 {
     os << dog.toString();

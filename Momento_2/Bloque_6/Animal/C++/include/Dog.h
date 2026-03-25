@@ -10,6 +10,8 @@ public:
     Dog(std::string name);
 
     std::string toString() const;
+
+    void greets() const;
 };
 std::ostream &operator<<(std::ostream &os, const Dog &dog);
 
