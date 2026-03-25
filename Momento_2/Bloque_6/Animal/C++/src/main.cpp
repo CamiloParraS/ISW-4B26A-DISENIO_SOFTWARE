@@ -33,6 +33,7 @@ int main()
     std::cout << "Parameterized Cat: " << cat2 << std::endl;
     cat1.setName("Garfield");
     std::cout << "Updated Cat1: " << cat1 << std::endl;
+    cat2.greets();
 
     // Dog class
     std::cout << "\n=== Dog Class ===" << std::endl;
