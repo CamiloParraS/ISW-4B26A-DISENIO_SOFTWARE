@@ -13,7 +13,7 @@ public:
     Publicacion();
     Publicacion(const std::string &titulo, const std::string &autor);
 
-    std::string mostrar() const;
+    virtual std::string mostrar() const;
 };
 
 std::ostream &operator<<(std::ostream &os, const Publicacion &publicacion);
