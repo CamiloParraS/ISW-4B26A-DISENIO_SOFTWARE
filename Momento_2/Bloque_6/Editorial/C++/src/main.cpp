@@ -2,6 +2,7 @@
 
 #include "../include/Publicacion.h"
 #include "../include/Libro.h"
+#include "../include/Disco.h"
 
 int main()
 {
@@ -20,6 +21,14 @@ int main()
     // Libro con datos
     Libro libro2("Cien Años de Soledad", "Gabriel García Márquez", 417, 1967);
     std::cout << libro2 << std::endl;
+
+    std::cout << "\n=== Disco ===" << std::endl;
+    // Disco por defecto
+    Disco disco1;
+    std::cout << disco1 << std::endl;
+    // Disco con datos
+    Disco disco2("Thriller", "Michael Jackson", 42.19f, 15);
+    std::cout << disco2 << std::endl;
 
     return 0;
 }
